@@ -1,8 +1,8 @@
 {
-    "name": "test/test",
-    "description": "A simple Webauthn test suite",
+    "name": "utopia/template",
+    "description": "A quick template for creating a utopia server with Swoole",
     "type": "library",
-    "keywords": ["php","framework","upf","utopia","webauthn"],
+    "keywords": ["php","framework","upf","utopia"],
     "license": "MIT",
     "authors": [
         {
@@ -10,22 +10,11 @@
             "email": "bradley@appwrite.io"
         }
     ],
-    "repositories": [
-        {
-            "type": "path",
-            "url": "/Users/ionicisere/Documents/github/webauthn"
-        }
-    ],    
     "require": {
         "php": ">=8.0",
-        "utopia-php/webauthn": "dev-master",
         "utopia-php/framework": "0.19.0",
         "utopia-php/swoole": "^0.1.0",
-        "utopia-php/cli": "dev-master"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.3",
-        "vimeo/psalm": "4.0.1"
+        "utopia-php/cli": "0.11.0"
     },
     "minimum-stability": "dev"
 }
